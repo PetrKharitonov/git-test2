@@ -1,0 +1,17 @@
+
+body {
+    font-family: 'Public Sans', sans-serif;
+}
+
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+
+._container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
