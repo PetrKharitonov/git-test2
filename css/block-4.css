@@ -68,10 +68,10 @@ body {
     background: #FFFFFF;
     border-radius: 22px;
     font-family: 'Public Sans';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 28px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
 }
 
 
@@ -83,3 +83,25 @@ line-height: 28px;
     align-items: center;
 }
 
+.button-link :hover{
+
+    width: 44px;
+    height: 44px;
+    background: #FFC27A;
+    box-shadow: -4px 4px 20px rgba(242, 206, 18, 0.12);
+    border-radius: 1000px;
+
+}
+
+.button-link{
+
+    display: flex;
+    width: 44px;
+    height: 44px;
+    background: #ffffff;
+    
+    border-radius: 1000px;
+    align-items: center;
+    justify-content: center;
+
+}
