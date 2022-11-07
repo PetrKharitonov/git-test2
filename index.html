@@ -11,12 +11,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <div class="wrapper">
 
-        <header>
-
+        <header class="header">
+            <div class="header__container _container">
+                <a href="" class="header__logo">
+                    <img src="img/eDex_logo.svg" alt="">
+                </a>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item menu__item_active">Home</li>
+                        <li class="menu__item">About</li>
+                        <li class="menu__item">Course</li>
+                        <li class="menu__item">Blog</li>
+                        <li class="menu__item">Contact</li>
+                    </ul>
+                </nav>
+                <div class="header__right-container">
+                    <div class="header__right-container__login">
+                        <img src="img/login_icon.svg" alt="" class="login__img">
+                        <a href="" class="login__text">Login</a>
+                    </div>
+                    
+                    <button class="header__right-container__button">Sign up for Free</button>
+                </div>
+            </div>
         </header>
 
         <main>
